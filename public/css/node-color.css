@@ -1,0 +1,57 @@
+.industry-bg-color{
+    background-color: #D4AF37;
+}
+.sector-bg-color{
+    background-color: #C0C0C0;
+}
+.sub-sector-bg-color{
+    background-color: #b08d57;
+}
+.group-bg-color {
+    background-color: #43bbea;
+}
+.sub-group-bg-color{
+    background-color: #76c9ea;
+}
+.echelon-bg-color{
+    background-color: #008080;
+}
+.sub-echelon-bg-color{
+    background-color: #4DBDBD;
+}
+.tier-bg-color {
+    background-color: #FFA500;
+}
+.sub-tier-bg-color{
+    background-color: #FF8C00;
+}
+.layer-bg-color {
+    background-color: #00ff00;
+}
+.sub-layer-bg-color{
+    background-color: #80ff79;
+}
+.deck-bg-color {
+    background-color: #abc41e;
+}
+.sub-deck-bg-color {
+    background-color: #d3e762;
+}
+.floor-bg-color {
+    background-color: #9fa6ec;
+}
+.sub-floor-bg-color{
+    background-color: #caceee;
+}
+.basement-bg-color{
+    background-color: #bf3cb8;
+}
+.sub-basement-bg-color{
+    background-color: #c981c4;
+}
+.mine-bg-color{
+    background-color: #ea2e70;
+}
+.sub-mine-bg-color{
+    background-color: #fa699c;
+}

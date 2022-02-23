@@ -1,0 +1,98 @@
+    /*.tree {*/
+    /*min-height:20px;*/
+    /*padding:19px;*/
+    /*margin-bottom:20px;*/
+    /*background-color:#fbfbfb;*/
+    /*border:1px solid #999;*/
+    /*-webkit-border-radius:4px;*/
+    /*-moz-border-radius:4px;*/
+    /*border-radius:4px;*/
+    /*-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);*/
+    /*-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);*/
+    /*box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05)*/
+    /*}*/
+.tree li {
+    list-style-type:none;
+    margin:0;
+    padding:10px 5px 0 5px;
+    position:relative
+}
+.tree li button {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.tree li::before, .tree li::after {
+    content:'';
+    left:-20px;
+    position:absolute;
+    right:auto
+}
+.tree li::before {
+    border-left:1px solid #999;
+    bottom:50px;
+    height:100%;
+    top:0;
+    width:1px
+}
+.tree li::after {
+    border-top:1px solid #999;
+    height:20px;
+    top:25px;
+    width:25px
+}
+
+/*.tree li span:not(.glyphicon) {*/
+/*    -moz-border-radius:5px;*/
+/*    -webkit-border-radius:5px;*/
+/*    border-radius:5px;*/
+/*    display:inline-block;*/
+/*    padding:4px 9px;*/
+/*    text-decoration:none*/
+/*}*/
+.tree li.parent_li>span:not(.glyphicon) {
+    cursor:pointer
+}
+.tree>ul>li::before, .tree>ul>li::after {
+    border:0
+}
+.tree li:last-child::before {
+    height:30px
+}
+/*.tree li.parent_li>span:not(.glyphicon):hover, .tree li.parent_li>span:not(.glyphicon):hover+ul li span:not(.glyphicon) {*/
+/*background:#eee;*/
+/*border:1px solid #999;*/
+/*padding:3px 8px;*/
+/*color:#000*/
+/*}*/
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li button:hover, .tree li button:hover+ul li button {
+    background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+.tree li button:hover+ul li::after,
+.tree li button:hover+ul li::before,
+.tree li button:hover+ul::before,
+.tree li button:hover+ul ul::before{
+    border-color:  #94a0b4;
+}
+.highlight::before {
+    height:10px !important; /* fixed header height*/
+}
+
+.vertical-node-tree {
+    overflow-x: auto;
+    max-width: 1125px;
+}

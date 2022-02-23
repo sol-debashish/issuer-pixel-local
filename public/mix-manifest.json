@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/dashboard_merged.css": "/css/dashboard_merged.css",
+    "/js/merged.js": "/js/merged.js",
+    "/css/merged.css": "/css/merged.css",
+    "/css/merged_admin.css": "/css/merged_admin.css",
+    "/js/admin_merged.js": "/js/admin_merged.js"
+}

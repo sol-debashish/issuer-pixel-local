@@ -1,0 +1,163 @@
+  .audio-upload-section, .video-upload-section, .media-file-upload-section  {
+      .card-body {
+          padding: 0px;
+      }
+      .card-body .col{
+          padding: 0px;
+      }
+      .danger, .danger:hover {
+          background-color: #e74c3c;
+      }
+
+      .inverse, .inverse:hover {
+          background-color: #34495e;
+      }
+
+      input[type="file"] {
+          height: 32px;
+      }
+
+      div[data-nothingToUpload] {
+          display: none;
+      }
+
+      .deleteFile {
+          padding: 3px 7px;
+          color: #bf0000;
+          font-weight: bold;
+          cursor: pointer;
+      }
+
+      button {
+          border: none;
+          cursor: pointer;
+          background: #bdc3c7;
+          color: #ffffff;
+          padding: 9px 12px 10px;
+          line-height: 1.333;
+          text-decoration: none;
+          text-shadow: none;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          -webkit-transition: 0.25s;
+          -moz-transition: 0.25s;
+          -o-transition: 0.25s;
+          transition: 0.25s;
+          -webkit-backface-visibility: hidden;
+      }
+
+      .meter {
+          color: #fff;
+          line-height: 18px;
+          font-size: 12px;
+      }
+
+      .drag-area {
+          border: 2px dashed #b0a1a1;
+          min-height: 350px;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding: 30px;
+      }
+
+      .drag-area.active {
+          border: 2px solid #958e8e;
+      }
+
+      .drag-area .icon {
+          font-size: 100px;
+      }
+
+      .drag-area header {
+          font-size: 30px;
+          font-weight: 600;
+      }
+
+      .drag-area span {
+          font-size: 25px;
+          font-weight: 500;
+          margin: 10px 0 15px 0;
+      }
+
+      .drag-area button {
+          padding: 15px 30px;
+          font-size: 15px;
+          font-weight: 600;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          color: #ffffff;
+          margin-top: 20px;
+          background-color: #4823A8;
+          border-radius: 2rem;
+      }
+      .drag-area button:hover {
+          background-color: #2a1c54;
+          color: #ffffff;
+      }
+      .drag-area button:focus {
+          background-color: #361a7e;
+          color: #ffffff;
+      }
+      .drag-area button:active {
+          background-color: #361a7e !important;
+          color: #ffffff !important;
+      }
+
+      /*.drag-area button img {*/
+      /*    width: 35px;*/
+      /*    margin-right: 5px;*/
+      /*}*/
+      .drag-area button i.fas {
+          font-size: 20px;
+          padding: 0px 10px 0px 10px;
+          margin: 0px;
+      }
+
+      .drag-area .support-format p {
+          color: #828282;
+          font-size: 14px;
+          margin-top: 20px;
+      }
+
+      .video-upload-button {
+          border-radius: 2rem;
+          border: none;
+          background-color: #5352ED;
+          cursor: none;
+          font-size: 16px;
+          padding: 8px 50px;
+      }
+
+      .video-upload-button:hover{
+          background: #3C34AC;
+          color: #fff;
+      }
+      .upload-notice {
+          color: #410f61;
+      }
+
+      div#results .fa-file-video {
+          font-size: 35px;
+          margin-top: 5px;
+      }
+
+      div#results .fileName{
+          display: inline-block;
+          color: #000;
+      }
+      div#results .deleteFile{
+          display: inline-block;
+          float: right;
+      }
+      div#results .single-video, div#results .added-media-file {
+          background: #FFE200;
+          color: #000;
+          padding: 10px;
+          margin-bottom: 3px;
+      }
+  }

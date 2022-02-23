@@ -1,0 +1,3 @@
+.form-group.has-error label, .form-group.has-error .help-block {
+  color: #dd4b39;
+}

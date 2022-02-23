@@ -1,0 +1,1108 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /*.exclamation-positions {
+        right: 30px;
+    }*/
+    .home-heading-text {
+        padding-right:180px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .card-group a {
+        max-height: 190px;
+    }
+    .card-group a .card .card-img{
+        max-height: 105px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .card-group a {
+        max-height: 230px;
+    }
+    .card-group a .card .card-img{
+        max-height: 150px;
+    }
+    .screener-top-tab .nav-link{
+        padding: 0.3rem 0.4rem !important;
+        font-size: 15px;
+    }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    /*.exclamation-positions {
+        right: 25px;
+        top: 20px;
+    }*/
+
+    .card-group a {
+        max-height: 185px;
+    }
+    .card-group a .card .card-img{
+        max-height: 90px;
+    }
+    .home-heading-text {
+        padding-right: 110px;
+    }
+    .screener-top-tab .nav-link{
+        padding: 0.3rem .3rem !important;
+        font-size: 9px;
+    }
+    /*==============Recaptcha desgin start================*/
+    /* .recaptcha-redesign{
+        transform:scale(1.65, 1.40);
+        transform-origin:0 0;
+    } */
+    /* .form-check{
+        margin-top: 40px;
+    } */
+    /*==============Recaptcha desgin end================*/
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .nav-link{
+        padding: 0.5rem;
+    }
+
+    .fix-ipad-pro{
+        padding-left: 60px !important;
+    }
+    /*.home-heading-text{
+        padding-right: 61px;
+    }*/
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    /*.exclamation-positions {
+        right: 20px;
+        top: 20px;
+    }*/
+
+    .card-group a {
+        max-height: 195px;
+    }
+    .card-group a .card .card-img{
+        max-height: 100px;
+    }
+
+    .customized-tab .nav-link {
+        font-size: 12px
+    }
+    .nav-link{
+        padding: 0.5rem;
+    }
+
+    /*========Home page start========*/
+    /*.home-heading-text {
+        padding-right: 110px;
+    }*/
+    .btn-theme-dark-blue {
+        background: #1e0857;
+        border-radius: 10px;
+        color: #ffffff !important;
+        font-weight: bold;
+        /* width: 142px; */
+    }
+    /*footer part*/
+    .subscription-home-text{
+        font-size: 20px;
+    }
+    .bottom-part-responsive{
+        text-align: center;
+    }
+    .footer-responsive{
+        justify-content: space-between;
+    }
+
+    /*========Home page end========*/
+
+     /*========about page start========*/
+    /*footer part*/
+    .subscription-home-text{
+        font-size: 20px;
+    }
+        /*subscription part*/
+        .subscribe-box-label {
+            font-size: 20px;
+
+        }
+        .advisers-img-1{
+            clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%, 0 43%);
+            width: 300px;
+        }
+        .advisers-img-2 {
+            clip-path: polygon(100% 0, 100% 52%, 100% 100%, 0 100%, 0 0);
+            width: 300px;
+        }
+        .advisers-img-3{
+            clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 0);
+            width: 300px;
+            margin-left: -14px;
+        }
+        .advisors-designation-2{
+            background: none;
+            height: 135px;
+            width: 224px;
+            padding: 10px;
+            position: absolute;
+            top: 300px;
+            right: 85px;
+            bottom: 0px;
+        }
+        .advisors-designation-1{
+            background: none;
+            height: 140px;
+            width: 200px;
+            padding: 10px;
+            position:absolute;
+            top: 300px;
+            left: 11px;
+            right:0;
+            bottom:0;
+        }
+        .adviser-pic-div-2{
+            margin-bottom: 140px;
+        }
+        .adviser-pic-div-1{
+            margin-bottom: 140px;
+        }
+
+    /*========about page end========*/
+
+     /*========Platform Page start========*/
+     .section-theme-sub-title{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .short-description p{
+        font-size: 15px;
+    }
+    .platform-logo{
+        width: 100px;
+        height: 100px;
+    }
+    .theme-list {
+        padding: 3px 0px 15px 20px;
+        list-style: none;
+        margin: 0;
+        font-size: 15px;
+    }
+    .section-theme-title{
+        /*font-size: 20px;*/
+    }
+    .platform-img{
+        text-align: center;
+    }
+    /*========Platform Page end========*/
+    /*========Beta Program Page start========*/
+    .beta-description{
+        text-align: center;
+    }
+    .patent-title{
+        /*font-size: 20px;*/
+        font-weight: bold;
+    }
+    .patented-text{
+        text-align: justify;
+        font-size: 15px;
+    }
+    /*========Beta Program Page end========*/
+    /*========Press Page start========*/
+    .press-col{
+        margin-bottom: 15px;
+    }
+    /*========Press Page end========*/
+    /*==============Recaptcha desgin start================*/
+    /* .recaptcha-redesign{
+        transform: scale(2.159, 1.40);
+        transform-origin:0 0;
+    }
+    .form-check{
+        margin-top: 40px;
+    } */
+    /*==============Recaptcha desgin end================*/
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+    /*.exclamation-positions {
+        right: 20px;
+        top: 5px;
+    }*/
+
+    .card-group a {
+        max-height: 55px;
+    }
+     /*========Home page start========*/
+     .home-heading-text {
+        padding-right: 110px;
+    }
+    /*video section*/
+    .play-video {
+        top: calc(50% - 90px);
+        position: absolute;
+        left: calc(50% - 90px);
+    }
+    .play-video img{
+        width: 200px;
+    }
+    /*Beta section*/
+    .beta-available-title{
+        font-size: 30px;
+
+    }
+    .beta-button{
+        width: 250px;
+        font-size: 15px;
+    }
+    /*subscription section*/
+    .subscription-home-bg{
+        padding: 0;
+    }
+    .subscription-home-text{
+        font-size: 20px;
+    }
+    .subscribe-box-input input{
+        height: 30px;
+    }
+    .subscribe-box-input input::-webkit-input-placeholder{
+        font-size: 15px;
+    }
+    .subscribe-box-input{
+        width: 200px;
+    }
+    .subscribe-box-button button{
+        background-color: #1e0857;
+        height: 29px;
+        border-radius: 0 10px 10px 0;
+        border: none;
+        width: 150px;
+        font-size: 10px;
+    }
+    /*mission section*/
+    .section-description{
+        text-align: left;
+        font-size: 15px;
+    }
+    /*patent section*/
+    .patented-title{
+        text-align: center;
+    }
+    /*footer items*/
+    .footer-social-icon img{
+        width: 45px;
+    }
+    .bottom-part-responsive{
+        text-align: center;
+    }
+    .footer-responsive{
+       justify-content: space-between;
+    }
+    /*========Home page end========*/
+    /*========about page start========*/
+    /*footer part*/
+    .subscription-home-text{
+        font-size: 20px;
+    }
+        /*subscription part*/
+        .subscribe-box-label {
+            font-size: 20px;
+
+        }
+        .advisers-img-1{
+            clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%, 0 43%);
+            width: 300px;
+        }
+        .advisers-img-2 {
+            clip-path: polygon(100% 0, 100% 52%, 100% 100%, 0 100%, 0 0);
+            width: 300px;
+        }
+
+        .advisers-img-3{
+            clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 0);
+            width: 300px;
+            margin-left: -14px;
+        }
+        .advisors-designation-2{
+            background: none;
+            height: 135px;
+            width: 224px;
+            padding: 10px;
+            position: absolute;
+            top: 300px;
+            right: 170px;
+            bottom: 0px;
+        }
+        .advisors-designation-1{
+            background: none;
+            height: 140px;
+            width: 200px;
+            padding: 10px;
+            position:absolute;
+            top: 300px;
+            left: 74px;
+            right:0;
+            bottom:0;
+        }
+        .adviser-pic-div-2{
+            margin-bottom: 140px;
+        }
+        .adviser-pic-div-1{
+            margin-bottom: 140px;
+        }
+
+    /*========about page end========*/
+
+    /*========Platform Page start========*/
+    .section-theme-sub-title{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .short-description p{
+        font-size: 15px;
+    }
+    .platform-logo{
+        width: 100px;
+        height: 100px;
+    }
+    .theme-list {
+        padding: 3px 0px 15px 20px;
+        list-style: none;
+        margin: 0;
+        font-size: 15px;
+    }
+    .section-theme-title{
+        /*font-size: 20px;*/
+    }
+    .platform-img{
+        text-align: center;
+    }
+    /*========Platform Page end========*/
+    /*========Beta Program Page start========*/
+    .beta-description{
+        text-align: center;
+    }
+    .patent-title{
+        /*font-size: 20px;*/
+        font-weight: bold;
+    }
+    .patented-text{
+        text-align: justify;
+        font-size: 15px;
+    }
+    /*========Beta Program Page end========*/
+    /*========Press Page start========*/
+    .press-col{
+        margin-bottom: 15px;
+    }
+    /*========Press Page end========*/
+    /*==============Recaptcha desgin start================*/
+    /* .recaptcha-redesign{
+        transform:scale(1.65, 1.00);
+        transform-origin:0 0;
+    }
+    .form-check{
+        margin-top: 20px;
+    } */
+    /*==============Recaptcha desgin end================*/
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    .ml-com-profile {
+        margin-left: 3.333%
+    }
+
+   /* .exclamation-positions {
+        right: 40px;
+        top: 20px;
+    }*/
+
+    .for-profile-banner-padding {
+        padding-top: 130px !important;
+    }
+
+    .cpt-2 {
+        padding: 15px !important;
+    }
+
+    #dashboard .icon-box[data-v-1f79daf6] {
+        padding: 15px !important;
+    }
+
+    .card-group a {
+        max-height: 156px;
+    }
+    /*========Khalid========*/
+    /*========Home page start========*/
+    /*video section*/
+    .play-video {
+        top: calc(50% - 90px);
+        position: absolute;
+        left: calc(50% - 90px);
+    }
+    .play-video img{
+        width: 200px;
+    }
+    /*Beta section*/
+    .beta-available-title{
+        font-size: 30px;
+
+    }
+    .beta-button{
+        width: 250px;
+        font-size: 15px;
+    }
+    /*subscription section*/
+    .subscription-home-bg{
+        padding: 0;
+    }
+    .subscription-home-text{
+        font-size: 20px;
+    }
+    .subscribe-box-input input{
+        height: 30px;
+    }
+    .subscribe-box-input input::-webkit-input-placeholder{
+        font-size: 15px;
+    }
+    .subscribe-box-input{
+        width: 200px;
+    }
+    .subscribe-box-button button{
+        background-color: #1e0857;
+        height: 29px;
+        border-radius: 0 10px 10px 0;
+        border: none;
+        width: 150px;
+        font-size: 10px;
+    }
+    /*mission section*/
+    .section-description{
+        text-align: left;
+        font-size: 15px;
+    }
+    /*patent section*/
+    .patented-title{
+        text-align: center;
+    }
+    /*footer items*/
+    .footer-social-icon img{
+        width: 30px;
+    }
+    .bottom-part-responsive{
+        text-align: center;
+    }
+    .footer-responsive{
+        justify-content: space-between;
+     }
+    /*========Home page end========*/
+        /*========About Page Start========*/
+    .heading-text{
+        font-size: 25px;
+    }
+    .advisors-profile-area-1{
+        text-align: center;
+        position:relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .advisors-designation-1{
+        background: white;
+        height: 75px;
+        width: 100%;
+        padding: 5px;
+        position:absolute;
+        top:300px;
+        left:0;
+        right:0;
+        bottom:0;
+
+    }
+    .adviser-pic-div-1{
+        margin: 0;
+    }
+
+    .advisor-name-text {
+        font-size: 12px;
+    }
+    .small-theme-text {
+        font-size: 10px;
+
+    }
+    .adviser-pic-div-1 img{
+        width: 301px;
+    }
+    .advisers-img-1{
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%, 0 37%);
+    }
+    .advisors-profile-area-2{
+        display: block;
+        position:relative;
+
+        margin-bottom: 70px;
+    }
+    .advisors-designation-2{
+        text-align: center;
+        background: white;
+        height: 72px;
+        width: 100%;
+        padding: 3px;
+        position: absolute;
+        top: 302px;
+        right: 0;
+        bottom: 0;
+
+    }
+    .adviser-pic-div-2 img{
+        width: 301px;
+    }
+    .adviser-pic-div-2{
+        text-align: center;
+    }
+    .advisers-img-2{
+        clip-path: polygon(100% 0, 100% 52%, 100% 100%, 0 100%, 0 0);
+    }
+
+    .advisers-img-3{
+        margin-bottom: 50px;
+        clip-path: polygon(100% 0, 100% 38%, 57%  100%, 0 100%, 0 0);
+    }
+    .margin-responsive{
+        margin-top: 70px;
+    }
+    .div-margin-bottom-responsive{
+        margin-bottom: 15px;
+    }
+    .div-margin-top-responsive{
+        margin-bottom: 15px;
+    }
+    .advisors-profile-area-1{
+        margin-top: 10px;
+    }
+    .responsive-reverse{
+        flex-wrap: wrap-reverse;
+    }
+    /*subscription part*/
+    .subscribe-box-label {
+        font-size: 15px; /*PV:27 changed 30 by khalid*/
+
+    }
+         /*========Platform Page start========*/
+    .section-theme-sub-title{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .short-description p{
+        font-size: 12px;
+    }
+    .platform-logo{
+        width: 100px;
+        height: 100px;
+    }
+    .theme-list {
+        padding: 3px 0px 15px 20px;
+        list-style: none;
+        margin: 0;
+        font-size: 12px;
+    }
+    .section-theme-title{
+        /*font-size: 20px;*/
+    }
+    /*========Platform Page end========*/
+    /*========Beta Program Page start========*/
+    .beta-description{
+        text-align: center;
+    }
+    .patent-title{
+        /*font-size: 20px;*/
+        font-weight: bold;
+    }
+    .patented-text{
+        text-align: justify;
+        font-size: 15px;
+    }
+    /*========Beta Program Page end========*/
+    /*========Press Page start========*/
+    .press-col{
+        margin-bottom: 15px;
+    }
+    /*========Press Page end========*/
+
+    /*==============Recaptcha desgin start================*/
+      /* .recaptcha-redesign{
+        transform:scale(1.35, 1.00);
+        transform-origin:0 0;
+    }
+    .form-check{
+        margin-top: 20px;
+    } */
+    /*==============Recaptcha desgin end================*/
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .ml-com-profile {
+        margin-left: 5.333%
+    }
+
+    /*.exclamation-positions {
+        right: 20px;
+        top: 20px;
+    }*/
+
+    .for-profile-banner-padding {
+        padding-top: 130px !important;
+    }
+
+    .cpt-2 {
+        padding: 15px !important;
+    }
+
+    #dashboard .icon-box[data-v-1f79daf6] {
+        padding: 15px !important;
+    }
+
+    .card-group a {
+        max-height: 156px;
+    }
+    /*========Khalid========*/
+    /*========Home page start========*/
+    /*video section*/
+        .play-video {
+            top: calc(50% - 50px);
+            position: absolute;
+            left: calc(50% - 40px);
+        }
+        .play-video img{
+            width: 100px;
+        }
+    /*Beta section*/
+    .beta-available-title{
+        font-size: 30px;
+
+    }
+    .beta-button{
+        width: 250px;
+        font-size: 15px;
+    }
+    /*subscription section*/
+    .subscription-home-bg{
+        padding: 0;
+    }
+    .subscription-home-text{
+        font-size: 20px;
+    }
+    .subscribe-box-input input{
+        height: 30px;
+    }
+    .subscribe-box-input input::-webkit-input-placeholder{
+        font-size: 10px;
+    }
+    .subscribe-box-input{
+        width: 200px;
+    }
+    .subscribe-box-button button{
+        background-color: #1e0857;
+        height: 29px;
+        border-radius: 0 10px 10px 0;
+        border: none;
+        width: 100px;
+        font-size: 10px;
+    }
+    /*mission section*/
+    .section-description{
+        text-align: left;
+        font-size: 15px;
+    }
+    /*patent section*/
+    .patented-title{
+        text-align: center;
+
+    }
+    /*footer items*/
+    .footer-social-icon img{
+        width: 30px;
+    }
+    .bottom-part-responsive{
+        text-align: center;
+    }
+    /*========Home page end========*/
+    /*========About Page Start========*/
+    .heading-text{
+        font-size: 25px;
+    }
+    .advisors-profile-area-1{
+        text-align: center;
+        position:relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .advisors-designation-1{
+        background: white;
+        height: 83px;
+        width: 100%;
+        padding: 5px;
+        position:absolute;
+        top:300px;
+        left:0;
+        right:0;
+        bottom:0;
+
+    }
+    .adviser-pic-div-1{
+        margin: 0;
+    }
+
+    .advisor-name-text {
+        font-size: 12px;
+    }
+    .small-theme-text {
+        font-size: 10px;
+        margin-top: 13px;
+
+    }
+    .adviser-pic-div-1 img{
+        width: 301px;
+    }
+    .advisers-img-1{
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%, 0 37%);
+    }
+    .advisors-profile-area-2{
+        display: block;
+        position:relative;
+
+        margin-bottom: 70px;
+    }
+    .advisors-designation-2{
+        text-align: center;
+        background: white;
+        height: 83px;
+        width: 100%;
+        padding: 3px;
+        position: absolute;
+        top: 302px;
+        right: 0;
+        bottom: 0;
+
+    }
+    .adviser-pic-div-2 img{
+        width: 301px;
+    }
+    .adviser-pic-div-2{
+        text-align: center;
+    }
+    .advisers-img-2{
+        clip-path: polygon(100% 0, 100% 52%, 100% 100%, 0 100%, 0 0);
+    }
+
+    .advisers-img-3{
+        margin-bottom: 50px;
+        clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 0);
+    }
+    .margin-responsive{
+        margin-top: 70px;
+    }
+    .div-margin-bottom-responsive{
+        margin-bottom: 15px;
+    }
+    .div-margin-top-responsive{
+        margin-bottom: 15px;
+    }
+    .advisors-profile-area-1{
+        margin-top: 10px;
+    }
+    .responsive-reverse{
+        flex-wrap: wrap-reverse;
+    }
+    /*subscription part*/
+    .subscribe-box-label {
+        font-size: 15px; /*PV:27 changed 30 by khalid*/
+
+    }
+    /*========About Page End========*/
+    /*========Platform Page start========*/
+    .section-theme-sub-title{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .short-description p{
+        font-size: 12px;
+    }
+    .platform-logo{
+        width: 100px;
+        height: 100px;
+    }
+    .theme-list {
+        padding: 3px 0px 15px 20px;
+        list-style: none;
+        margin: 0;
+        font-size: 12px;
+    }
+    .section-theme-title{
+        /*font-size: 20px;*/
+    }
+    /*========Platform Page end========*/
+    /*========Beta Program Page start========*/
+    .beta-description{
+        text-align: center;
+    }
+    .patent-title{
+        /*font-size: 20px;*/
+        font-weight: bold;
+    }
+    .patented-text{
+        text-align: justify;
+        font-size: 15px;
+    }
+    /*========Beta Program Page end========*/
+    /*========Press Page start========*/
+    .press-col{
+        margin-bottom: 15px;
+    }
+    /*========Press Page end========*/
+    /*==============Recaptcha desgin start================*/
+    /* .recaptcha-redesign{
+        transform: scale(1.06, 1.00);
+        transform-origin:0 0;
+    }
+
+    .form-check{
+        margin-top: 20px;
+    } */
+/*==============Recaptcha desgin end================*/
+}
+@media (max-width: 1440px) {
+    .media-edit-btn-padding {
+        padding: 4px 10px !important;
+    }
+    /*css added by khalid start for (ManageContent.vue file)*/
+    .responsive-date-hide{
+        display: none;
+    }
+    .issuer-content-table thead tr th {
+        font-size: 11px !important;
+        min-width: 60px;
+    }
+    .text-left-responsive{
+        text-align: left;
+    }
+    .issuer-content-table-body tr td{
+        font-size: 13px;
+    }
+    .text-right-responsive{
+        text-align: right;
+    }
+    .issuer-content-table tbody tr td a{
+        font-size: 13px !important;
+    }
+    .action-min-width{
+        min-width: 100px !important;
+    }
+    /*css added by khalid end for (ManageContent.vue file)*/
+}
+@media (max-width: 1280px) {
+    .media-edit-btn-padding {
+        font-size: 14px !important;
+    }
+    .dashboard-profile-complete-fs{
+        font-size: 9px;
+    }
+    /*css added by khalid start for (ManageContent.vue file)*/
+    .responsive-date-hide{
+        display: none;
+    }
+    .issuer-content-table thead tr th {
+        font-size: 10px !important;
+        min-width: 62px !important;
+    }
+    .text-left-responsive{
+        text-align: left;
+    }
+    .issuer-content-table-body tr td{
+        font-size: 12px;
+    }
+    .text-right-responsive{
+        text-align: right;
+    }
+    .issuer-content-table tbody tr td a{
+        font-size: 12px !important;
+    }
+    .action-min-width{
+        min-width: 100px !important;
+    }
+    /*css added by khalid end for (ManageContent.vue file)*/
+
+}
+@media (max-width: 1496px) {
+    /*css added by khalid start for (ManageContent.vue file)*/
+
+    .issuer-content-table thead tr th {
+        font-size: 10px !important;
+    }
+    .text-left-responsive{
+        text-align: left;
+    }
+    .issuer-content-table-body tr td{
+        font-size: 12px;
+    }
+    .text-right-responsive{
+        text-align: right;
+    }
+    .issuer-content-table tbody tr td a{
+        font-size: 12px !important;
+    }
+    .action-min-width{
+        min-width: 100px !important;
+    }
+    /*css added by khalid end for (ManageContent.vue file)*/
+}
+@media (max-width: 1439px) {
+    .add-another-classification-btn, .classification-btn {
+        padding: 4px 8px !important;
+        font-size: 11px !important;
+    }
+    /*.classification-btn{
+        margin-top: 4px;
+    }*/
+}
+@media (min-width: 320px) and (max-width: 1280px) {
+    .add-another-classification-btn, .classification-btn {
+        padding: 4px 5px !important;
+        font-size: 9px !important;
+    }
+    .h5.media-hierarchy-classification-tooltrip { font-size: .9rem}
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .add-another-classification-btn, .classification-btn {
+        padding: 4px 5px !important;
+        font-size: 9px !important;
+    }
+}
+@media (min-width: 1439px) and (max-width: 1440px) {
+    .add-another-classification-btn, .classification-btn {
+        padding: 5px 10px !important;
+        font-size: 12px !important;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1620px) {
+    .add-another-classification-btn, .classification-btn {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+    }
+}
+@media (min-width: 1621px) and (max-width: 1876px) {
+    .add-another-classification-btn, .classification-btn {
+        padding: 6px 16px !important;
+        font-size: 13px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .media-edit-save-and-close-btn{
+        margin-top: 0.25rem !important;
+    }
+}
+/*==============Media query for New screener field================*/
+@media (min-width: 320px) and (max-width: 768px) {
+    .screener2 .control-label{
+        font-size: 12px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .screener2 .control-label{
+        font-size: 7px !important;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .screener2 .control-label{
+        font-size: 8px !important;
+    }
+
+}
+@media (min-width: 1281px) and (max-width: 1366px) {
+    .dashboard-profile-complete-fs{
+        font-size: 10px;
+    }
+    .screener-top-tab .nav-link{
+        padding: 0.3rem .4rem !important;
+        font-size: 9px;
+    }
+}
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .screener2 .control-label{
+        font-size: 9px !important;
+    }
+    .dashboard-profile-complete-fs{
+        font-size: 11px;
+    }
+    .screener-top-tab .nav-link{
+        padding: 0.3rem .4rem !important;
+        font-size: 9px;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1718px) {
+    .screener2 .control-label{
+        font-size: 10px !important;
+    }
+    .dashboard-profile-complete-fs{
+        font-size: 11px !important;
+    }
+}
+@media (min-width: 1719px) and (max-width: 1842px) {
+    .screener2 .control-label{
+        font-size: 11px !important;
+    }
+}
+/*==============Media query for bolletin================*/
+@media (min-width: 320px) and (max-width: 1024px){
+    .header-bulletin{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
